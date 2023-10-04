@@ -1,0 +1,34 @@
+
+*,*:after,*:before{
+    box-sizing: border-box;
+}
+body{
+    font-family:  'Yeseva One','Noto Sans TC',sans-serif;
+    line-height: 1.5;
+    background: url(/assets/images/bg-image.png), lightgray 0% 0% / 89.60000276565552px 89.60000276565552px repeat, #F3F1E5;
+    a{
+        text-decoration: none;
+        color: $primary;
+    }
+    img,svg,span{
+        vertical-align: middle;
+        max-width: 100%;
+        height: auto;
+    }
+    ul,ol{
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    color: $primary;
+    .form-select{
+        border:none;
+    }
+    code{
+        color: $success;
+    }
+}
+
+p{
+    margin: 0;
+}

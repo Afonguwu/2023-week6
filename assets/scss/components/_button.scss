@@ -1,0 +1,14 @@
+.btn-style{
+    max-width: 416px;
+    background-color: $primary;
+    color: #ffffff;
+    font-weight: 700;
+    padding:8px auto;
+    &:hover{
+        color:$secondary;
+    }
+    &:disabled{
+        background-color: #9A9A9A;
+        color: #EBEAE3;
+    }
+}

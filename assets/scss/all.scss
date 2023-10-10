@@ -1,9 +1,11 @@
-@import './vendors/bootstrap';
+@import'./vendors/bootstrap5';
 
-@import './base/font';
 @import './base/base';
 
 @import './components/button';
 
-@import './utils/utilities';
+@import './layout/navbar';
+
+
+@import './pages/index.scss';
 

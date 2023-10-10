@@ -13,6 +13,14 @@ body{
         max-width: 100%;
         height: auto;
     }
+    img{
+        height: auto;
+        vertical-align: middle;
+    }
+    a{
+        text-decoration: none;
+        color: $primary;
+    }
     ul,ol{
         list-style: none;
         padding: 0;

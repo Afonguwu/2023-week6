@@ -3,13 +3,11 @@
     box-sizing: border-box;
 }
 body{
-    font-family:  'Yeseva One','Noto Sans TC',sans-serif;
-    line-height: 1.5;
-    background: url(/assets/images/bg-image.png), lightgray 0% 0% / 89.60000276565552px 89.60000276565552px repeat, #F3F1E5;
-    a{
-        text-decoration: none;
-        color: $primary;
-    }
+    background-image: url("https://github.com/Afonguwu/2023-week6/blob/main/assets/images/bg-image.png?raw=true");
+    background-repeat:  repeat;
+    background-size: 89.60000276565552px 89.60000276565552px;
+    background-color: #F3F1E5;
+    background-blend-mode: multiply;
     img,svg,span{
         vertical-align: middle;
         max-width: 100%;

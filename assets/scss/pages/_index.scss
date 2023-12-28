@@ -1,0 +1,29 @@
+.index-banner{
+    height: 350px;
+    
+    padding-bottom: 24px;
+    padding-top: 16px;
+    padding-left: 40px;
+    @include media-breakpoint-up(lg){
+        height: 518px;
+        padding-top: 48px;
+        padding-left: 48px;   
+    }
+}
+.more-btn:hover{
+    opacity: 1;
+    background-color: transparent;
+}
+.hover-bg{
+    &:hover{
+        background-color: rgba($secondary,0.6);
+    }
+}
+
+.title-block{
+    padding: 24px 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 3px solid $primary;
+}

@@ -14,23 +14,14 @@ body{
         height: auto;
     }
     img{
+        max-width: 100%;
         height: auto;
         vertical-align: middle;
     }
     ul,ol{
         list-style: none;
-        padding: 0;
         margin: 0;
+        padding: 0;
     }
-    color: $primary;
-    .form-select{
-        border:none;
-    }
-    code{
-        color: $success;
-    }
-}
 
-p{
-    margin: 0;
 }
